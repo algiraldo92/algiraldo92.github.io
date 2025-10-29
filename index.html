@@ -43,9 +43,11 @@
     }
     .projects {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 320px));
+      grid-template-columns: repeat(auto-fit, minmax(280px, 320px));
       gap: 25px;
-      justify-content: center; 
+      place-content: center;
+      max-width: 1000px;
+      margin: 0 auto;
     }
     .card {
       background: #1e293b;
