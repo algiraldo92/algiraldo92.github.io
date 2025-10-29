@@ -54,6 +54,13 @@
       transition: transform 0.3s ease;
     }
     .card:hover { transform: translateY(-6px); }
+    .card img {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 15px;
+      height: 160px;
+      object-fit: cover;
+    }
     .card h3 {
       color: #38bdf8;
       margin-bottom: 10px;
@@ -94,6 +101,7 @@
     @media (max-width: 600px) {
       h1 { font-size: 2rem; }
       .card { padding: 20px; }
+      .card img { height: 140px; }
     }
   </style>
 </head>
@@ -108,19 +116,22 @@
     <h2>📊 Proyectos Destacados</h2>
     <div class="projects">
       <div class="card">
+        <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=80" alt="Data clustering dashboard">
         <h3>Gym_churn_kmeans</h3>
-        <p>The goal of this project is to: Analyze customer behavior and profile data, identify segments with a high probability of churn using K-means clustering .</p>
-        <a href="https://github.com/algiraldo92/Gym_churn_kmean">Ver proyecto →</a>
+        <p>The goal of this project is to analyze customer behavior and profile data, identifying segments with a high probability of churn using K-means clustering.</p>
+        <a href="https://github.com/algiraldo92/Gym_churn_kmean" target="_blank">Ver proyecto →</a>
       </div>
       <div class="card">
+        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80" alt="Business analytics dashboard">
         <h3>Business_analytics_cohorts</h3>
-        <p>Analyze historical marketing spend and ROI across channels. Identify cost-saving opportunities without compromising sales growth..</p>
-        <a href="https://github.com/algiraldo92/Business_analytics_cohorts/blob/main/Analysis.ipynb">Ver proyecto →</a>
+        <p>Analyze historical marketing spend and ROI across channels. Identify cost-saving opportunities without compromising sales growth.</p>
+        <a href="https://github.com/algiraldo92/Business_analytics_cohorts/blob/main/Analysis.ipynb" target="_blank">Ver proyecto →</a>
       </div>
       <div class="card">
+        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80" alt="A/B testing visualization">
         <h3>Funnel_Test_AB</h3>
-        <p>First, study the sales funnel. Analyze how users reach the purchase stage. The objective is to determine which font set produces better results.</p>
-        <a href="https://github.com/algiraldo92/Funnel_Test_AB/tree/main">Ver proyecto →</a>
+        <p>Study the sales funnel and analyze how users reach the purchase stage. The objective is to determine which font set produces better results.</p>
+        <a href="https://github.com/algiraldo92/Funnel_Test_AB/tree/main" target="_blank">Ver proyecto →</a>
       </div>
     </div>
   </section>
@@ -129,7 +140,7 @@
     <h2>📫 Contacto</h2>
     <p>Let's connect on LinkedIn! You can view my professional background and experience here:</p>
     <p>
-      <a href="www.linkedin.com/in/alangiraldo-dataanalyst" target="_blank">LinkedIn</a> |
+      <a href="https://www.linkedin.com/in/alangiraldo-dataanalyst" target="_blank">LinkedIn</a> |
       <a href="https://github.com/algiraldo92" target="_blank">GitHub</a> |
       <a href="mailto:alangiraldo18@gmail.com">Email</a>
     </p>
